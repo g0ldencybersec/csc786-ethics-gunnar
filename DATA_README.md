@@ -6,3 +6,8 @@ Example entry format (udpate to match your data):
 - {"timestamp_utc": "...", "endpoint": "...", "params": {...}, "output": "...", "sha256": "..."}
 
 ---
+
+- {"timestamp_utc": "2026-10-26T215850Z", "endpoint": "https://api.open-meteo.com/v1/forecast", "params": {"latitude": 44.6, "longitude": -96.8, "hourly": "temperature_2m", "forecast_days": 1}, "output": "hourly_temps_2026-10-26T215850Z.csv", "sha256": "73c230ab8ea25f69600b9a9502f87475d018354c0507862770aa54ee0f164364", "python": "3.13.16", "pandas": "2.2.3", "requests": "2.32.4"}
+- {"timestamp_utc": "2026-10-26T220202Z", "endpoint": "https://api.openweathermap.org/data/2.5/weather", "params": {"q": "Sioux Falls", "units": "metric"}, "output": "current_weather_2026-10-26T220202Z.json", "sha256": "9341e834ef8c1b3b5f517505bce5b0568e79656e1845043363c27e5e076e2734", "python": "3.13.16", "pandas": "2.2.3", "requests": "2.32.4"}
+- {"timestamp_utc": "2026-10-26T220409Z", "endpoint": "https://api.openweathermap.org/data/2.5/weather", "params": {"q": "Sioux Falls", "units": "metric"}, "output": "current_weather_2026-10-26T220409Z.json", "sha256": "3277f6c40a283f078be51420655083a570eeda8a9d65e01f3f0e13c375183356", "python": "3.13.16", "pandas": "2.2.3", "requests": "2.32.4"}
+- {"timestamp_utc": "2026-10-26T220420Z", "endpoint": "https://api.open-meteo.com/v1/forecast", "params": {"latitude": 44.6, "longitude": -96.8, "hourly": "temperature_2m", "forecast_days": 1}, "output": "hourly_temps_2026-10-26T220420Z.csv", "sha256": "73c230ab8ea25f69600b9a9502f87475d018354c0507862770aa54ee0f164364", "python": "3.13.16", "pandas": "2.2.3", "requests": "2.32.4"}
