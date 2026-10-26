@@ -2,7 +2,7 @@
 
 This repository demonstrates an ethical, reproducible data-collection workflow used in the CSC 786 course.
 
-## Overview (udpate as necessary)
+## Overview
 This project collects sample open data from ---- ,
 logs all collection parameters and metadata, and stores them in a version-controlled repository.
 
